@@ -1,0 +1,440 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "abinit",
+  "evidence": {
+    "core_skills": [
+      "abinit-getting-started",
+      "abinit-inputs-and-modeling",
+      "abinit-tests",
+      "abinit-developer-guide",
+      "abinit-build-and-install",
+      "abinit-examples-and-tutorials"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/abinit-getting-started.md",
+      "skills/.evidence/abinit-inputs-and-modeling.md",
+      "skills/.evidence/abinit-tests.md",
+      "skills/.evidence/abinit-developer-guide.md",
+      "skills/.evidence/abinit-build-and-install.md",
+      "skills/.evidence/abinit-examples-and-tutorials.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/abinit-advanced-topics/SKILL.md",
+        "skills/abinit-advanced-topics/references/doc_map.md",
+        "skills/abinit-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/abinit-about/SKILL.md",
+        "skills/abinit-about/references/doc_map.md",
+        "skills/abinit-about/references/source_map.md",
+        "skills/abinit-advanced-topics/SKILL.md",
+        "skills/abinit-advanced-topics/references/doc_map.md",
+        "skills/abinit-advanced-topics/references/source_map.md",
+        "skills/abinit-build-and-install/SKILL.md",
+        "skills/abinit-developer-guide/SKILL.md",
+        "skills/abinit-examples-and-tutorials/SKILL.md",
+        "skills/abinit-getting-started/SKILL.md",
+        "skills/abinit-index/SKILL.md",
+        "skills/abinit-inputs-and-modeling/SKILL.md",
+        "skills/abinit-legacy/SKILL.md",
+        "skills/abinit-legacy/references/doc_map.md",
+        "skills/abinit-legacy/references/source_map.md",
+        "skills/abinit-maintainers/SKILL.md",
+        "skills/abinit-maintainers/references/doc_map.md",
+        "skills/abinit-maintainers/references/source_map.md",
+        "skills/abinit-spacegroup/SKILL.md",
+        "skills/abinit-spacegroup/references/doc_map.md",
+        "skills/abinit-spacegroup/references/source_map.md",
+        "skills/abinit-tests/SKILL.md",
+        "skills/abinit-todo/SKILL.md",
+        "skills/abinit-todo/references/doc_map.md",
+        "skills/abinit-todo/references/source_map.md",
+        "skills/abinit-topics/SKILL.md",
+        "skills/abinit-topics/references/doc_map.md",
+        "skills/abinit-topics/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/abinit-about/SKILL.md",
+        "skills/abinit-about/references/doc_map.md",
+        "skills/abinit-about/references/source_map.md",
+        "skills/abinit-legacy/SKILL.md",
+        "skills/abinit-legacy/references/doc_map.md",
+        "skills/abinit-legacy/references/source_map.md",
+        "skills/abinit-maintainers/SKILL.md",
+        "skills/abinit-maintainers/references/doc_map.md",
+        "skills/abinit-maintainers/references/source_map.md",
+        "skills/abinit-spacegroup/SKILL.md",
+        "skills/abinit-spacegroup/references/doc_map.md",
+        "skills/abinit-spacegroup/references/source_map.md",
+        "skills/abinit-todo/SKILL.md",
+        "skills/abinit-todo/references/doc_map.md",
+        "skills/abinit-todo/references/source_map.md",
+        "skills/abinit-topics/SKILL.md",
+        "skills/abinit-topics/references/doc_map.md",
+        "skills/abinit-topics/references/source_map.md"
+      ],
+      "modified": [
+        "skills/abinit-build-and-install/SKILL.md",
+        "skills/abinit-developer-guide/SKILL.md",
+        "skills/abinit-examples-and-tutorials/SKILL.md",
+        "skills/abinit-getting-started/SKILL.md",
+        "skills/abinit-index/SKILL.md",
+        "skills/abinit-inputs-and-modeling/SKILL.md",
+        "skills/abinit-tests/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/abinit-advanced-topics/references/source_map.md",
+        "skills/abinit-analysis-and-output/SKILL.md",
+        "skills/abinit-analysis-and-output/references/source_map.md",
+        "skills/abinit-api-and-scripting/SKILL.md",
+        "skills/abinit-api-and-scripting/references/source_map.md",
+        "skills/abinit-build-and-install/SKILL.md",
+        "skills/abinit-build-and-install/references/source_map.md",
+        "skills/abinit-developer-guide/references/source_map.md",
+        "skills/abinit-examples-and-tutorials/references/source_map.md",
+        "skills/abinit-getting-started/references/source_map.md",
+        "skills/abinit-index/SKILL.md",
+        "skills/abinit-inputs-and-modeling/references/source_map.md",
+        "skills/abinit-parallel-hpc/SKILL.md",
+        "skills/abinit-parallel-hpc/references/source_map.md",
+        "skills/abinit-simulation-workflows/SKILL.md",
+        "skills/abinit-simulation-workflows/references/source_map.md",
+        "skills/abinit-tests/references/source_map.md",
+        "skills/abinit-theory-and-methods/SKILL.md",
+        "skills/abinit-theory-and-methods/references/source_map.md",
+        "skills/abinit-troubleshooting/SKILL.md",
+        "skills/abinit-troubleshooting/references/source_map.md",
+        "skills/abinit-variables/SKILL.md",
+        "skills/abinit-variables/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/abinit-advanced-topics/references/source_map.md",
+        "skills/abinit-analysis-and-output/SKILL.md",
+        "skills/abinit-analysis-and-output/references/source_map.md",
+        "skills/abinit-api-and-scripting/SKILL.md",
+        "skills/abinit-api-and-scripting/references/source_map.md",
+        "skills/abinit-build-and-install/SKILL.md",
+        "skills/abinit-build-and-install/references/source_map.md",
+        "skills/abinit-developer-guide/references/source_map.md",
+        "skills/abinit-examples-and-tutorials/references/source_map.md",
+        "skills/abinit-getting-started/references/source_map.md",
+        "skills/abinit-index/SKILL.md",
+        "skills/abinit-inputs-and-modeling/references/source_map.md",
+        "skills/abinit-parallel-hpc/SKILL.md",
+        "skills/abinit-parallel-hpc/references/source_map.md",
+        "skills/abinit-simulation-workflows/SKILL.md",
+        "skills/abinit-simulation-workflows/references/source_map.md",
+        "skills/abinit-tests/references/source_map.md",
+        "skills/abinit-theory-and-methods/SKILL.md",
+        "skills/abinit-theory-and-methods/references/source_map.md",
+        "skills/abinit-troubleshooting/SKILL.md",
+        "skills/abinit-troubleshooting/references/source_map.md",
+        "skills/abinit-variables/SKILL.md",
+        "skills/abinit-variables/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc",
+      "shared/libpaw/doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary user and developer documentation is rooted in doc/, with additional libpaw docs in shared/libpaw/doc.",
+      "Tutorial-style coverage is split between doc/tutorial and tutorial-focused test suites under tests/tuto* and tests/tutorial.",
+      "Main scientific implementation lives in src/ and shared/; tooling/build code is in scripts/, abimkdocs*, cmake/, and config/.",
+      "Generator syntax was minimally patched in sci-skills-generator/scripts/generate_skills_folder.py so dry-run generation works deterministically."
+    ],
+    "package_name": "abinit",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "abimkdocs",
+      "abimkdocs_plugin",
+      "bindings",
+      "cmake",
+      "config",
+      "scripts",
+      "shared",
+      "src"
+    ],
+    "test_dirs": [
+      "abimkdocs_tests",
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "doc/tutorial",
+      "tests/tutoatdep",
+      "tests/tutomultibinit",
+      "tests/tutoparal",
+      "tests/tutoplugs",
+      "tests/tutorespfn",
+      "tests/tutorial"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/abinit-abinit",
+  "run_id": "compile_20260301T025900478129Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "abinit-about",
+      "abinit-analysis-and-output",
+      "abinit-api-and-scripting",
+      "abinit-build-and-install",
+      "abinit-developer-guide",
+      "abinit-examples-and-tutorials",
+      "abinit-getting-started",
+      "abinit-index",
+      "abinit-inputs-and-modeling",
+      "abinit-legacy",
+      "abinit-maintainers",
+      "abinit-parallel-hpc",
+      "abinit-simulation-workflows",
+      "abinit-spacegroup",
+      "abinit-tests",
+      "abinit-theory-and-methods",
+      "abinit-todo",
+      "abinit-topics",
+      "abinit-troubleshooting",
+      "abinit-variables"
+    ],
+    "core_skill_ids": [
+      "abinit-getting-started",
+      "abinit-inputs-and-modeling",
+      "abinit-tests",
+      "abinit-developer-guide",
+      "abinit-build-and-install",
+      "abinit-examples-and-tutorials"
+    ],
+    "deferred_gaps": [
+      "Root-level docs (INSTALL*.md, NEWS, KNOWN_PROBLEMS) are files rather than directory roots and must be pulled into topic references during enrichment.",
+      "Auto-grouped one-doc topics should be reviewed in pass 3 and merged into an advanced-topics skill when low-signal.",
+      "Assess whether bindings/libpaw needs a dedicated topic skill after coverage audit."
+    ],
+    "goal": "Generate a deterministic ABINIT skills baseline, then enrich and audit the highest-impact workflow skills in passes 2/3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "routing rules across generated topic skills",
+          "docs-first then source-escalation policy",
+          "canonical roots for docs, tutorials, tests, and source"
+        ],
+        "reason": "ABINIT spans many domains; a strong router is required to keep responses docs-first and topic-specific.",
+        "skill_id": "abinit-index",
+        "source_hints": [
+          "doc/index.md",
+          "doc/guide",
+          "tests",
+          "src",
+          "shared"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "configure and CMake build paths",
+          "compiler/dependency configuration and variants",
+          "quick validation and smoke-test commands"
+        ],
+        "reason": "Build and environment setup are common blockers and must be explicit before deeper workflows.",
+        "skill_id": "abinit-build-and-install",
+        "source_hints": [
+          "doc/installation.md",
+          "INSTALL",
+          "doc/build",
+          "CMakeLists.txt",
+          "configure.ac",
+          "config",
+          "cmake"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "minimal first calculation workflow",
+          "input-output anatomy for new users",
+          "pointer map to canonical tutorials"
+        ],
+        "reason": "A concise onboarding skill reduces repeated setup and orientation questions.",
+        "skill_id": "abinit-getting-started",
+        "source_hints": [
+          "README.md",
+          "doc/guide",
+          "doc/tutorial",
+          "doc/topics"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "input variable discovery and interpretation",
+          "model setup for structure, pseudopotentials, and cutoffs",
+          "cross-links between theory pages and variable docs"
+        ],
+        "reason": "Input variables and physical-model choices drive most correctness outcomes.",
+        "skill_id": "abinit-inputs-and-modeling",
+        "source_hints": [
+          "doc/variables",
+          "doc/topics",
+          "doc/theory",
+          "src/57_iovars",
+          "src/64_psp"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "single-point, relaxation, and response workflow shapes",
+          "restart/checkpoint usage patterns",
+          "output checkpoints for convergence sanity"
+        ],
+        "reason": "Users need reproducible run/restart patterns for production calculations.",
+        "skill_id": "abinit-simulation-workflows",
+        "source_hints": [
+          "doc/tutorial",
+          "doc/guide",
+          "tests/fast",
+          "tests/v1",
+          "src/95_drive",
+          "src/98_main"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI/OpenMP/GPU execution patterns",
+          "parallel test suites and constraints",
+          "scaling and platform troubleshooting entry points"
+        ],
+        "reason": "Performance and scalability guidance is high-impact for ABINIT users on clusters.",
+        "skill_id": "abinit-parallel-hpc",
+        "source_hints": [
+          "doc/help_make",
+          "doc/topics",
+          "tests/paral",
+          "tests/gpu",
+          "tests/hpc",
+          "src/51_manage_mpi",
+          "src/46_manage_cuda"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "python invocation and scripting entry points",
+          "pre/post-processing utilities",
+          "docs tooling modules relevant to variable lookup"
+        ],
+        "reason": "Python and scripting integration is needed for automation and post-processing flows.",
+        "skill_id": "abinit-api-and-scripting",
+        "source_hints": [
+          "src/67_python_invocation_ext",
+          "scripts",
+          "abimkdocs",
+          "abimkdocs_plugin",
+          "tests/pymods"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "known build/runtime failure classes",
+          "diagnostic commands and log checkpoints",
+          "fix routing by symptom"
+        ],
+        "reason": "Concentrating known failures and diagnostics shortens issue resolution cycles.",
+        "skill_id": "abinit-troubleshooting",
+        "source_hints": [
+          "KNOWN_PROBLEMS",
+          "doc/faq",
+          "tests/Timeout",
+          "tests/runtests.py"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "abinit-getting-started",
+      "abinit-inputs-and-modeling",
+      "abinit-tests",
+      "abinit-developer-guide",
+      "abinit-build-and-install",
+      "abinit-examples-and-tutorials"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/abinit-abinit/skills/abinit-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/abinit-abinit/skills/abinit-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/abinit-abinit/skills/abinit-tests/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/abinit-abinit/skills/abinit-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/abinit-abinit/skills/abinit-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/abinit-abinit/skills/abinit-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "abinit-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "abinit-index",
+      "abinit-build-and-install",
+      "abinit-getting-started",
+      "abinit-inputs-and-modeling",
+      "abinit-simulation-workflows",
+      "abinit-parallel-hpc",
+      "abinit-api-and-scripting",
+      "abinit-troubleshooting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 15,
+    "source_inventory": {},
+    "source_links_total": 144,
+    "topic_skills": 14,
+    "warnings": []
+  }
+}

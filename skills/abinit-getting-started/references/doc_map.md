@@ -1,0 +1,152 @@
+# abinit documentation map: Getting Started
+
+Generated from documentation roots:
+- `doc`
+- `shared/libpaw/doc`
+- `doc/tutorial`
+- `tests/tutoatdep`
+- `tests/tutomultibinit`
+- `tests/tutoparal`
+- `tests/tutoplugs`
+- `tests/tutorespfn`
+- `tests/tutorial`
+- `abimkdocs_tests`
+- `tests`
+
+Total docs grouped in this topic: 134
+
+## File inventory
+- `doc/README.md` | title: Getting started with mkdocs | headings: Getting started with mkdocs; Notes; Troubleshooting
+- `doc/index.md` | title: New user help file | headings: New user help file; Foreword; Introduction
+- `doc/extra_javascript/jQuery-jQuery-UI-Dialog-Enhancement-Plugin-dialogextend/README.md` | title: jquery-dialogextend 2.0.4 [![project status](http://stillmaintained.com/ROMB/jquery-dialogextend.png)](http://stillmaintained.com/ROMB/jquery-dialogextend) [![Build Status](https://travis-ci.org/ROMB/jquery-dialogextend.png?branch=master)](https://travis-ci.org/ROMB/jquery-dialogextend) | headings: jquery-dialogextend 2.0.4 [![project status](http://stillmaintained.com/ROMB/jquery-dialogextend.png)](http://stillmaintained.com/ROMB/jquery-dialogextend) [![Build Status](https://travis-ci.org/ROMB/jquery-dialogextend.png?branch=master)](https://travis-ci.org/ROMB/jquery-dialogextend); Download; Compatible
+- `doc/tutorial/index.md` | title: Welcome | headings: Welcome; Overview of the ABINIT tutorials.; authors: XG
+- `doc/installation.md` | title: Installation notes for ABINIT | headings: Installation notes for ABINIT; Overview; How to get a version of ABINIT?
+- `doc/tutorial/tddft.md` | title: TDDFT (Casida) | headings: TDDFT (Casida); Time-Dependent Density Functional Theory, Casida's approach.; Brief theoretical introduction
+- `doc/topics/_GSintroduction.md` | title: Introduction | headings: Introduction; Crystalline aluminum. Calculation of the total energy; at fixed number of k points and broadening.
+- `doc/guide/optic.md` | title: The optic utility | headings: The optic utility; 1 Introduction; 2 How to run Optic
+- `doc/tutorial/rttddft.md` | title: Tutorial on real-time time-dependent DFT | headings: Tutorial on real-time time-dependent DFT; 1. Basics of RT-TDDFT; 2. Ground state of diamond
+- `doc/tutorial/paw3.md` | title: Third tutorial on the Projector Augmented-Wave (PAW) technique | headings: Third tutorial on the Projector Augmented-Wave (PAW) technique; Testing PAW datasets against an all-electron code; 1. Introduction - the quantities to be compared
+- `doc/tutorial/paw2.md` | title: Second tutorial on the Projector Augmented-Wave (PAW) technique | headings: Second tutorial on the Projector Augmented-Wave (PAW) technique; Generation of PAW atomic datasets; 1. The PAW atomic dataset - introduction
+- `doc/tutorial/paral_bandpw.md` | title: Parallelization of ground state calculations | headings: Parallelization of ground state calculations; Explore the *k-points/plane waves/bands* parallelization; Introduction
+- `doc/tutorial/lattice_wannier.md` | title: Lattice Wannier functions (LWFs). | headings: Lattice Wannier functions (LWFs).; SCDM-k method; Introduction to the SCDM-k algorithm
+- `doc/tutorial/gwr_intro.md` | title: An overview of the GWR code | headings: An overview of the GWR code; Why a new GW code?; Input variables
+- `doc/tutorial/eph_intro.md` | title: An overview of the EPH code | headings: An overview of the EPH code; Why a new EPH code?; EPH workflow
+- `doc/tutorial/eph4zpr.md` | title: Zero-point renormalization of the band gap and temperature-dependent band gaps | headings: Zero-point renormalization of the band gap and temperature-dependent band gaps; Formalism; Quasi-particle corrections due to the e-ph coupling
+- `doc/tutorial/eph4vpq.md` | title: Self-trapped polarons & Variational Polaron Equations | headings: Self-trapped polarons & Variational Polaron Equations; Formalism; **Self-trapped polarons**
+- `doc/tutorial/eph4isotc.md` | title: Superconducting properties within the isotropic Eliashberg formalism | headings: Superconducting properties within the isotropic Eliashberg formalism; Formalism and connection with the implementation; Getting started
+- `doc/tutorial/dmft_triqs.md` | title: Tutorial on DFT+DMFT with TRIQS/CT-HYB | headings: Tutorial on DFT+DMFT with TRIQS/CT-HYB; 1. Introduction; 2. Presentation
+- `doc/tutorial/abinit_build.md` | title: How to build ABINIT using the Autotools | headings: How to build ABINIT using the Autotools; Getting started; How to compile BLAS and LAPACK
+- `doc/topics/features.md` | title: ABINIT features | headings: ABINIT features; An overview of ABINIT settings and features, for beginners and more experienced users.; 1 Foreword
+- `doc/guide/respfn.md` | title: The DFPT (respfn) code | headings: The DFPT (respfn) code; 0 Introducing the computation of responses; 1 Description of perturbations
+- `doc/guide/new_user.md` | title: New user help file | headings: New user help file; Foreword; Introduction
+- `doc/guide/multibinit.md` | title: The multibinit software | headings: The multibinit software; 0 Installation; 1 How to run the code
+- `doc/developers/abimkdocs.md` | title: Getting started | headings: Getting started; Writing docs; Front matter
+- `doc/guide/mrgscr.md` | title: the Mrgscr utility | headings: the Mrgscr utility; 1 Introduction; 2 Why such utility can be useful?
+- `doc/developers/overview_development.md` | title: An overview of ABINIT development | headings: An overview of ABINIT development; Introduction; Basic philosophy for developers
+- `doc/about/contributing.md` | title: How to contribute to ABINIT | headings: How to contribute to ABINIT; Introduction; Code repositories
+- `doc/topics/_parallelism.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_RTTDDFT.md` | title: Introduction | headings: Introduction; Implementation in ABINIT; Related Input Variables
+- `doc/topics/_NMR.md` | title: Introduction | headings: Introduction; Execution; Related Input Variables
+- `doc/guide/aim.md` | title: the AIM utility | headings: the AIM utility; 1 Introduction; 2 Input and output files
+- `doc/topics/_xc.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_spinpolarisation.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_positron.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_nonlinear.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_longwave.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_k-points.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_crystal.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Wavelets.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Wannier.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_UnitCell.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Unfolding.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_TransPath.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Temperature.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_TDepES.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_TDDFT.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_SpinDynamicsMultibinit.md` | title: Introduction | headings: Introduction; Tutorials; Related Input Variables
+- `doc/topics/_SelfEnergy.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_SCFControl.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_PseudosPAW.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Polaron.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Planewaves.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Phonons.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_PhononWidth.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_PhononBands.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_PAW.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Optic.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_MolecularDynamics.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_MagField.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_LatticeWannier.md` | title: Introduction | headings: Introduction; Tutorials; Related Input Variables
+- `doc/topics/_LatticeModel.md` | title: Introduction | headings: Introduction; Tutorials; Related Input Variables
+- `doc/topics/_Install.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_GWR.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_GW.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_FrequencyMeshMBPT.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_ForcesStresses.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_FitProcess.md` | title: Introduction | headings: Introduction; Tutorials; Related Input Variables
+- `doc/topics/_ElecDOS.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Elastic.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_ElPhonTransport.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_ElPhonInt.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_EFG.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_DynamicsMultibinit.md` | title: Introduction | headings: Introduction; Tutorials; Related Input Variables
+- `doc/topics/_DensityPotential.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_DMFT.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_DFT+U.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_DFPT.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_CrossingBarriers.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_CalcUJ.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_BoundingProcess.md` | title: Introduction | headings: Introduction; Tutorials; Related Input Variables
+- `doc/topics/_Berry.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_BandOcc.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_BSE.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_AtomTypes.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/guide/mrgddb.md` | title: The mrgddb utility | headings: The mrgddb utility; 1 Introduction; 2 What is the usefulness of a merging code ?
+- `doc/topics/_vdw.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_q-points.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_printing.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_multidtset.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_aTDEP.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Verification.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_TuningSpeedMem.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Susceptibility.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_SmartSymm.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_STM.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_SCFAlgorithms.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Recursion.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_RandStopPow.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_RPACorrEn.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_PortabilityNonRegression.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_PIMD.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Output.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_MagMom.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Macroave.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_LOTF.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_LDAminushalf.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Hybrids.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Git.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_GeoOpt.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_GeoConstraints.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_GWls.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_FileFormats.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_ExtFPMD.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_ElecBandStructure.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_EffectiveMass.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_DmftTriqsCthyb.md` | title: Introduction | headings: Introduction; Related Input Variables; Tutorials
+- `doc/topics/_Dev.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_DeltaSCF.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Coulomb.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Control.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_ConstrainedPol.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_ConstrainedDFT.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Band2eps.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Bader.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_AtomManipulator.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_AtomCentered.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Artificial.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_Abipy.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/topics/_APPA.md` | title: Introduction | headings: Introduction; Related Input Variables; Selected Input Files
+- `doc/theory/acknowledgments.md` | title: Acknowledgments | headings: Acknowledgments; Introduction; List of suggestions
+- `doc/guide/anaddb.md` | title: The anaddb utility | headings: The anaddb utility; 1 Introduction; 2 Input variables
+- `doc/guide/abitk.md` | title: The abitk utility | headings: The abitk utility; 1 Introduction; 2 Typical usage
+- `doc/tutorial/multibinit.md` | title: First tutorial on MULTIBINIT | headings: First tutorial on MULTIBINIT; Introduction to MULTIBINIT; authors: LB, XH
